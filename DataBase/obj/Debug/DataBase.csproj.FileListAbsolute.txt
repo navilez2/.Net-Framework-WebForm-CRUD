@@ -1,0 +1,16 @@
+C:\RepositorioGitHub\API\FacilAssist\CRUD\DataBase\bin\Debug\DataBase.dll.config
+C:\RepositorioGitHub\API\FacilAssist\CRUD\DataBase\bin\Debug\DataBase.dll
+C:\RepositorioGitHub\API\FacilAssist\CRUD\DataBase\bin\Debug\DataBase.pdb
+C:\RepositorioGitHub\API\FacilAssist\CRUD\DataBase\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\RepositorioGitHub\API\FacilAssist\CRUD\DataBase\bin\Debug\System.Security.AccessControl.dll
+C:\RepositorioGitHub\API\FacilAssist\CRUD\DataBase\bin\Debug\System.Security.Permissions.dll
+C:\RepositorioGitHub\API\FacilAssist\CRUD\DataBase\bin\Debug\System.Security.Principal.Windows.dll
+C:\RepositorioGitHub\API\FacilAssist\CRUD\DataBase\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\RepositorioGitHub\API\FacilAssist\CRUD\DataBase\bin\Debug\System.Security.AccessControl.xml
+C:\RepositorioGitHub\API\FacilAssist\CRUD\DataBase\bin\Debug\System.Security.Permissions.xml
+C:\RepositorioGitHub\API\FacilAssist\CRUD\DataBase\bin\Debug\System.Security.Principal.Windows.xml
+C:\RepositorioGitHub\API\FacilAssist\CRUD\DataBase\obj\Debug\DataBase.csproj.AssemblyReference.cache
+C:\RepositorioGitHub\API\FacilAssist\CRUD\DataBase\obj\Debug\DataBase.csproj.CoreCompileInputs.cache
+C:\RepositorioGitHub\API\FacilAssist\CRUD\DataBase\obj\Debug\DataBase.csproj.CopyComplete
+C:\RepositorioGitHub\API\FacilAssist\CRUD\DataBase\obj\Debug\DataBase.dll
+C:\RepositorioGitHub\API\FacilAssist\CRUD\DataBase\obj\Debug\DataBase.pdb
