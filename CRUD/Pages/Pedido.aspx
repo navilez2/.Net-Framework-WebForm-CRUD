@@ -18,7 +18,7 @@
 
 <div class="container">
     <div>
-        <img src="../images/Desenvolvimento.png" />
+        <img height="400" width="600" src="../images/Desenvolvimento.png" />
     </div>
 </div>
 

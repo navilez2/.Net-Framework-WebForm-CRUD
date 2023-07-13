@@ -111,7 +111,9 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="CSS\index.css" />
+    <Content Include="CSS\Master.css" />
     <Content Include="CSS\Produtos.css" />
+    <Content Include="images\Caution.png" />
     <Content Include="images\Desenvolvimento.png" />
     <Content Include="images\icon-edit.png" />
     <Content Include="images\icon-bin.png" />
@@ -134,6 +136,7 @@
     <Content Include="Pages\Produto.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\JavaScript\Master.js" />
     <Content Include="Scripts\JavaScript\TabPage.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
