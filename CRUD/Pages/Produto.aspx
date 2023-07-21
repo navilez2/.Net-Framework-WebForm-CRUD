@@ -2,8 +2,6 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-
-
     <script src="../Scripts/JavaScript/TabPage.js"></script>
     <%--seção de cadastro--%>
 
@@ -37,12 +35,12 @@
                         </div>
                         <div style="margin-left: 20px">
                             <label for="txtPrecoProduto">Preço</label>
-                            <asp:TextBox runat="server" onblur="validarNumeroDecimal('txtPrecoProduto','btnCadastrarProduto')" ClientIDMode="Static" ID="txtPrecoProduto" class="form-control" Width="80px" placeholder="Ex.:0,00" ValidationGroup="CadastroValidation"></asp:TextBox>
-                            <div class="row">
+                            <asp:TextBox runat="server" onblur="" ClientIDMode="Static" ID="txtPrecoProduto" class="form-control" Width="80px" placeholder="Ex.:0,00" ValidationGroup="CadastroValidation"></asp:TextBox>
+                            <%--<div class="row">
                                 <asp:RegularExpressionValidator ID="regexPrecoProduto" ValidationGroup="CadastroValidation" runat="server" ForeColor="Red" ControlToValidate="txtPrecoProduto"
                                     ErrorMessage="O campo deve ser um valor numérico." ValidationExpression="^[0-9]+([,.][0-9]+)?$" />
                                 <asp:RequiredFieldValidator ValidationGroup="CadastroValidation" ForeColor="Red"  Display="Dynamic" SetFocusOnError="true" runat="server" ControlToValidate="txtPrecoProduto" ErrorMessage="Campo obrigatório." />
-                            </div>
+                            </div>--%>
                         </div>
                     </div>
                     <div style="display: flex; justify-content: flex-start">

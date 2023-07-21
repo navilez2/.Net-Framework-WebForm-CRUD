@@ -1,0 +1,36 @@
+﻿.containerPedido {
+    display: flex;
+    align-content: flex-start;
+    height: 700px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 1.5rem;
+}
+
+.childListProduto {
+    display: flex;
+    width: 100%;
+    align-content: flex-start;
+    overflow-x: auto;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.childScreenPedido {
+    display: flex;
+    width: 50%;
+    align-content: flex-start;
+    overflow-x: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
+

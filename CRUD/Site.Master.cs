@@ -39,7 +39,7 @@ namespace CRUD
             string script = string.Format("alert('{0}');",message);
             ScriptManager.RegisterStartupScript(this, GetType(), "ShowAlertScript", script, true);
         }
-        public void ErrorModal(string message)
+        public void AlertModal(string title, string message)
         {
             string script = "var container = document.createElement('div')\r\n" +
                             "container.innerHTML = [   " +
@@ -47,7 +47,7 @@ namespace CRUD
                             "        '<div class=\"modal-dialog\">',\r\n " +
                             "            '<div class=\"modal-content\">',\r\n    " +
                             "               '<div class=\"modal-header\">',\r\n  " +
-                            "                   '<h1 class=\"modal-title fs-5\" id=\"modalLabel\">Ocorreu um erro!</h1>',\r\n" +
+                            "                   '<h1 class=\"modal-title fs-5\" id=\"modalLabel\">"+ title + "</h1>',\r\n" +
                             "               '</div>',\r\n " +
                             "               '<div class=\"modal-body\">',\r\n " +
                             "                   '<form>',\r\n " +

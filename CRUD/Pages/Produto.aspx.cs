@@ -49,7 +49,7 @@ namespace CRUD.Pages
             }
             catch(Exception ex)
             {
-                master.ErrorModal(ex.Message);
+                master.AlertModal("Ocorreu um erro!", ex.HResult.ToString() + " -> " + ex.TargetSite + " - " + ex.Message);
             }
         }
 
@@ -73,7 +73,7 @@ namespace CRUD.Pages
             }
             catch (Exception ex)
             {
-                master.ErrorModal(ex.Message);
+                master.AlertModal("Ocorreu um erro!", ex.HResult.ToString() + " -> " + ex.TargetSite + " - " + ex.Message);
             }
         }
         protected void btnCadastrarProduto_Click(object sender, EventArgs e)
@@ -91,17 +91,16 @@ namespace CRUD.Pages
                     dic.Add("@DC_MARCA", txtMarcaProduto.Text);
                     dic.Add("@DC_CATEGORIA", txtCategoriaProduto.Text);
                     dic.Add("@DC_UNIDADE_MEDIDA", txtUnidadeMedidaProduto.Text);
-                    dic.Add("@VL_PRECO", preco);
+                    dic.Add("@VL_PRECO", txtPrecoProduto.Text);
                     new Controller().ExecuteProcedure("SPI_PRODUTO", dic);
                     CarregarGridProduto();
                     limpaCampos();
-                    master.ShowMessageOnTop("Produto cadastrado com sucesso!", "success");
-                    master.ErrorModal("adw");
 
+                    master.ShowMessageOnTop("Produto cadastrado com sucesso!", "success");
                 }
                 catch (Exception ex)
                 {
-                    master.ErrorModal(ex.Message);
+                    master.AlertModal("Ocorreu um erro!", ex.HResult.ToString() + " -> " + ex.TargetSite + " - " + ex.Message);
                 }
 
             }
@@ -116,7 +115,7 @@ namespace CRUD.Pages
             }
             catch (Exception ex)
             {
-                master.ErrorModal(ex.Message);
+                master.AlertModal("Ocorreu um erro!", ex.HResult.ToString() + " -> " + ex.TargetSite + " - " + ex.Message);
             }
         }
 
@@ -138,7 +137,7 @@ namespace CRUD.Pages
             }
             catch(Exception ex) 
             { 
-                master.ErrorModal(ex.Message); 
+                master.AlertModal("Ocorreu um erro!", ex.HResult.ToString() + " -> " + ex.TargetSite + " - " + ex.Message); 
             }
         }
 
@@ -151,7 +150,7 @@ namespace CRUD.Pages
             }
             catch(Exception ex)
             {
-                master.ErrorModal(ex.Message);
+                master.AlertModal("Ocorreu um erro!", ex.HResult.ToString() + " -> " + ex.TargetSite + " - " + ex.Message);
             }
         }
 
@@ -176,7 +175,7 @@ namespace CRUD.Pages
             }
             catch(Exception ex)
             {
-                master.ErrorModal(ex.Message);
+                master.AlertModal("Ocorreu um erro!", ex.HResult.ToString() + " -> " + ex.TargetSite + " - " + ex.Message);
             }
         }
         protected void limpaCampos()

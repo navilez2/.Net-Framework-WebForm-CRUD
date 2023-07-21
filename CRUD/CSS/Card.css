@@ -1,0 +1,35 @@
+﻿.panelCard {
+    margin: 1rem;
+    width: 18rem;
+    height: 30rem
+}
+
+.btnCard {
+    width: 100%
+}
+
+.cardBodyText {
+    width: 100%;
+    padding: 1rem 1rem;
+    overflow: auto;
+    max-height: 115px;
+    margin-left: 0px;
+}   
+.cardTitle{
+    font-size:small;
+    font-weight: bold;
+}
+.cardDescription {
+    font-size: smaller;
+}
+.cardTxtQuantidade {
+    width: 50px;
+    margin: 3px;
+}
+.cardQuantidadePanel {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    justify-items: end;
+}

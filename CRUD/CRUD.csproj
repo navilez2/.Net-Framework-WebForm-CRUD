@@ -105,18 +105,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Components\Card.ascx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="CSS\Card.css" />
     <Content Include="CSS\index.css" />
     <Content Include="CSS\Master.css" />
+    <Content Include="CSS\Pedido.css" />
     <Content Include="CSS\Produtos.css" />
     <Content Include="images\Caution.png" />
     <Content Include="images\Desenvolvimento.png" />
     <Content Include="images\icon-edit.png" />
     <Content Include="images\icon-bin.png" />
+    <Content Include="images\noImage.png" />
+    <Content Include="images\noPhoto.png" />
     <Content Include="index.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -173,6 +178,13 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Components\Card.ascx.cs">
+      <DependentUpon>Card.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Components\Card.ascx.designer.cs">
+      <DependentUpon>Card.ascx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -22,8 +22,6 @@
     <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
-
-    <link rel="stylesheet" type="text/css" href="/CSS/Produtos.css" />
     <link rel="stylesheet" type="text/css" href="/CSS/index.css" />
     <link rel="stylesheet" type="text/css" href="/CSS/Master.css" />
 
